@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#0B0D12"
+        android:pathData="M0,0h108v108h-108z"/>
+    <!-- Outer glass ring glow -->
+    <path
+        android:strokeColor="#00D2FF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.35"
+        android:pathData="M54,14 A40,40 0 1,1 14,54"
+        android:strokeLineCap="round"/>
+    <!-- Manus/OpenMan Arc -->
+    <path
+        android:strokeColor="#438DFF"
+        android:strokeWidth="7"
+        android:pathData="M78.6,33.5 A28,28 0 1,0 88.5,57.4"
+        android:strokeLineCap="round"/>
+    <!-- Inner cyan accent dot -->
+    <path
+        android:fillColor="#00D2FF"
+        android:pathData="M86.5,44.5 m-5.5,0 a5.5,5.5 0 1,0 11,0 a5.5,5.5 0 1,0 -11,0"/>
+</vector>
